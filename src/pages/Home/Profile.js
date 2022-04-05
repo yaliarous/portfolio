@@ -2,7 +2,6 @@ import { Fragment } from 'react';
 import classNames from 'classnames';
 import { Transition } from 'react-transition-group';
 import Link from 'components/Link';
-import { Button } from 'components/Button';
 import DecoderText from 'components/DecoderText';
 import Divider from 'components/Divider';
 import Image from 'components/Image';
@@ -30,11 +29,11 @@ const ProfileText = ({ status, titleId }) => (
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      I’m Ali Arous Mohamed amin, currently I live in ALGERIA working as a WEB DEVLOPER designer 
-      .My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you're interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m Ali Arous Mohamed amin, currently I live in ALGERIA working as a WEB DEVLOPER
+      designer .My projects include UX design, UI animations, and icon illustration. Being
+      comfortable with code allows me to rapidly prototype and validate experiences. If
+      you're interested in the tools and software I use check out my{' '}
+      <Link href="/uses">uses page</Link>.
     </Text>
     <Heading
       className={classNames('profile__title', `profile__title--${status}`)}
@@ -47,11 +46,7 @@ const ProfileText = ({ status, titleId }) => (
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-    
-      
-      phone :   +213666287238
-      
-      EMAIL :  arxam82@gmail.com
+      phone : +213666287238 EMAIL : arxam82@gmail.com
     </Text>
   </Fragment>
 );
@@ -73,14 +68,6 @@ const Profile = ({ id, visible, sectionRef }) => {
           <div className="profile__content">
             <div className="profile__column">
               <ProfileText status={status} titleId={titleId} />
-              <Button
-                secondary
-                className={classNames('profile__button', `profile__button--${status}`)}
-                href="/contact"
-                icon="send"
-              >
-                Send me a message
-              </Button>
             </div>
             <div className="profile__column">
               <div className="profile__tag" aria-hidden>
@@ -106,7 +93,7 @@ const Profile = ({ id, visible, sectionRef }) => {
                   placeholder={ProfileImgPlaceholder}
                   srcSet={`${ProfileImg} 480w, ${ProfileImgLarge} 960w`}
                   sizes={`(max-width: ${media.mobile}px) 100vw, 480px`}
-                  alt="Me standing in front of the Torii on Miyajima, an island off the coast of Hiroshima in Japan"
+                  alt="Hiroshima in Japan"
                 />
                 <KatakanaProfile
                   className={classNames('profile__svg', `profile__svg--${status}`)}

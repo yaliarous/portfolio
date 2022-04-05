@@ -180,10 +180,10 @@ const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="DevOps"
-        description="Reduce your time to market"
+        title="App development"
+        description=" platform builds amazing cross-platform mobile"
         buttonText="View Website"
-        buttonLink="https://gamestack.Mohamedw.com"
+        buttonLink=""
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -206,8 +206,8 @@ const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="3D WEB DEV"
+        description="way of dogmatizing scientific knowledge while pictures of scientists in their private lives is a way of popularizing and humanizing science"
         buttonText="View Project"
         buttonLink="/projects/slice"
         model={{
