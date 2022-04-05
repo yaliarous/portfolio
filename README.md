@@ -1,8 +1,8 @@
 # Personal portfolio
 
-[![Site preview](/public/social-image.png)](https://hamishw.com)
+[![Site preview](/public/social-image.png)](https://Mohamedw.com)
 
-A design portfolio to showcase a few projects. View the [live site](https://hamishw.com) or check out a live version of the [components storybook](https://storybook.hamishw.com).
+A design portfolio to showcase a few projects. View the [live site](https://Mohamedw.com) or check out a live version of the [components storybook](https://storybook.Mohamedw.com).
 
 ## Install & run
 
@@ -60,8 +60,8 @@ I do not give permission to present any of my projects as your own (this is bein
 
 > Q: How do I change the colour on the `DisplacementSphere` (blobby rotating thing in the background).
 
-A: You'll need to edit the fragment shader. [Check out this issue for more details](https://github.com/HamishMW/portfolio/issues/19#issuecomment-870996615).
+A: You'll need to edit the fragment shader. [Check out this issue for more details](https://github.com/MohamedMW/portfolio/issues/19#issuecomment-870996615).
 
 > Q: How do I get the contact form to work?
 
-A: It's set up using a serverless function with AWS Lambda. You'll need to set up an AWS account and deploy the function. [Refer to this issue for more details](https://github.com/HamishMW/portfolio/issues/21#issuecomment-958727113).
+A: It's set up using a serverless function with AWS Lambda. You'll need to set up an AWS account and deploy the function. [Refer to this issue for more details](https://github.com/MohamedMW/portfolio/issues/21#issuecomment-958727113).

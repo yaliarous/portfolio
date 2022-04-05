@@ -25,7 +25,7 @@ const Uses = () => {
   return (
     <Fragment>
       <Helmet>
-        <title>Uses | Hamish Williams</title>
+        <title>Uses | Mohamed ALI AROUS</title>
         <meta
           name="description"
           content="A list of hardware and software I use to do my thing"
@@ -52,7 +52,7 @@ const Uses = () => {
                     <Link href="https://www.figma.com">Figma</Link> is my primary tool for
                     UI design these days. Made the switch from Sketch in 2020 and haven't
                     looked back. I've also created{' '}
-                    <Link href="https://www.figma.com/@hamish">a few plugins</Link> that
+                    <Link href="https://www.figma.com/@Mohamed">a few plugins</Link> that
                     you can install.
                   </li>
                   <li>
@@ -115,7 +115,7 @@ const Uses = () => {
                   <li>
                     For building and testing UI components in isolation I use{' '}
                     <Link href="https://storybook.js.org/">Storybook</Link>. Check out the{' '}
-                    <Link href="https://storybook.hamishw.com">
+                    <Link href="https://storybook.Mohamedw.com">
                       storybook for this website
                     </Link>
                     .

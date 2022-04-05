@@ -23,7 +23,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { useLocation } from 'react-router-dom';
 
-const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
+const disciplines = ['Developer', 'designer'];
 
 const Home = () => {
   const { status } = useRouteTransition();
@@ -139,11 +139,10 @@ const Home = () => {
   return (
     <div className="home">
       <Helmet>
-        <title>Hamish Williams | Designer + Developer</title>
+        <title>Mohamed ALI AROUS | Designer + Developer</title>
         <meta
           name="description"
-          content="Portfolio of Hamish Williams – a digital designer working on web &amp; mobile
-          apps with a focus on motion and user experience design."
+          content="Portfolio of Mohamed ALI AROUS – a Devops."
         />
         <link rel="prefetch" href={iphone11} as="fetch" crossorigin="" />
         <link rel="prefetch" href={macbookPro} as="fetch" crossorigin="" />
@@ -159,9 +158,9 @@ const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
-        buttonText="View Project"
+        title="Cloud"
+      description="AWS / Alibaba Cloud  / AZURE / GCP"
+        buttonText="View Certification"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
@@ -181,10 +180,10 @@ const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
+        title="DevOps"
+        description="Reduce your time to market"
         buttonText="View Website"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonLink="https://gamestack.Mohamedw.com"
         model={{
           type: 'phone',
           alt: 'App login screen',

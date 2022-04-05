@@ -30,19 +30,28 @@ const ProfileText = ({ status, titleId }) => (
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
+      I’m Ali Arous Mohamed amin, currently I live in ALGERIA working as a WEB DEVLOPER designer 
+      .My projects include UX design, UI
       animations, and icon illustration. Being comfortable with code allows me to rapidly
       prototype and validate experiences. If you're interested in the tools and software I
       use check out my <Link href="/uses">uses page</Link>.
     </Text>
+    <Heading
+      className={classNames('profile__title', `profile__title--${status}`)}
+      level={3}
+      id={titleId}
+    >
+      <DecoderText text="Contact Me :" start={status !== 'exited'} delay={500} />
+    </Heading>
     <Text
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+    
+      
+      phone :   +213666287238
+      
+      EMAIL :  arxam82@gmail.com
     </Text>
   </Fragment>
 );

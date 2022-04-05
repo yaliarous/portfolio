@@ -31,7 +31,7 @@ export const TransitionContext = createContext();
 const repoPrompt = `
 __  __  __
 \u005C \u005C \u005C \u005C \u005C\u2215\n \u005C \u005C\u2215\u005C \u005C\n  \u005C\u2215  \u005C\u2215
-\n\nTaking a peek huh? Check out the source code: https://github.com/HamishMW/portfolio
+\n\nTaking a peek huh? Check out the source code: https://github.com/MohamedMW/portfolio
 `;
 
 const App = () => {
@@ -67,7 +67,7 @@ const AppRoutes = () => {
   return (
     <Fragment>
       <Helmet>
-        <link rel="canonical" href={`https://hamishw.com${pathname}`} />
+        <link rel="canonical" href={`https://Mohamedw.com${pathname}`} />
       </Helmet>
       <VisuallyHidden showOnFocus as="a" className="skip-to-main" href="#MainContent">
         Skip to main content

@@ -10,15 +10,14 @@ _______________________________________________________________________________
 
 DESIGNER | デザイナー
 
-Hamish Williams
+Mohamed ALI AROUS
 Hand crafted design & web development
 
 Design tools:
 Figma
 Photoshop
 
-twitter.com/hamishmw
-github.com/hamishmw
+
 
 _______________________________________________________________________________
 
