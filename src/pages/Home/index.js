@@ -140,10 +140,7 @@ const Home = () => {
     <div className="home">
       <Helmet>
         <title>Mohamed ALI AROUS | Designer + Developer</title>
-        <meta
-          name="description"
-          content="Portfolio of Mohamed ALI AROUS – a Devops."
-        />
+        <meta name="description" content="Portfolio of Mohamed ALI AROUS – a Devops." />
         <link rel="prefetch" href={iphone11} as="fetch" crossorigin="" />
         <link rel="prefetch" href={macbookPro} as="fetch" crossorigin="" />
       </Helmet>
@@ -159,9 +156,7 @@ const Home = () => {
         visible={visibleSections.includes(projectOne.current)}
         index={1}
         title="Cloud"
-      description="AWS / Alibaba Cloud  / AZURE / GCP"
-        buttonText="View Certification"
-        buttonLink="/projects/smart-sparrow"
+        description=""
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -181,9 +176,7 @@ const Home = () => {
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
         title="App development"
-        description=" platform builds amazing cross-platform mobile"
-        buttonText="View Website"
-        buttonLink=""
+        description="Platform builds amazing cross-platform mobile"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -208,8 +201,6 @@ const Home = () => {
         index={3}
         title="3D WEB DEV"
         description="way of dogmatizing scientific knowledge while pictures of scientists in their private lives is a way of popularizing and humanizing science"
-        buttonText="View Project"
-        buttonLink="/projects/slice"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
